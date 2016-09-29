@@ -7,7 +7,7 @@ _EditorGUISplitView_ is an utility view that allows you to easily add a split vi
 
 It couldn't be easier to use
 
-```
+```c#
 
 EditorGUISplitView horizontalSplitView = new EditorGUISplitView (EditorGUISplitView.Direction.Horizontal);
 	EditorGUISplitView verticalSplitView = new EditorGUISplitView (EditorGUISplitView.Direction.Vertical);
