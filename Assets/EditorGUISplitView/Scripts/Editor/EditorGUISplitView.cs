@@ -68,7 +68,7 @@ public class EditorGUISplitView
 		else
 			EditorGUIUtility.AddCursorRect(resizeHandleRect,MouseCursor.ResizeVertical);
 
-		if( Event.current.type == EventType.mouseDown && resizeHandleRect.Contains(Event.current.mousePosition)){
+		if(Event.current.type == EventType.MouseDown && resizeHandleRect.Contains(Event.current.mousePosition)){
 			resize = true;
 		}
 		if(resize){
